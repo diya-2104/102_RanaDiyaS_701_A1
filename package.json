@@ -1,0 +1,19 @@
+{
+  "name": "practical01",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Run tests here\"",
+    "zip": "node public/q4_zip.js",
+    "chat": "node public/q3_IChatBOT.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^5.1.0"
+  }
+}

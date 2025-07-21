@@ -1,5 +1,5 @@
 const fs = require('fs');
 
-fs.writeFileSync('demo.txt', 'Hello, FS!');
-fs.appendFileSync('demo.txt', '\nAppended Text');
-console.log(fs.readFileSync('demo.txt', 'utf8'));
+fs.writeFileSync('test.txt', 'Hello, FS!');
+fs.appendFileSync('test.txt', '\nAppended Text');
+console.log(fs.readFileSync('test.txt', 'utf8'));

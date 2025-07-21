@@ -1,0 +1,8 @@
+Changes made in "package.json" file :
+
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Run tests here\"",
+    "zip": "node public/q4_zip.js",
+    "chat": "node public/q3_IChatBOT.js"
+  },
